@@ -29,8 +29,12 @@
   },
   "scripts": {
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
-    "commitmsg": "commitlint -e $GIT_PARAMS"
+    "semantic-release": "semantic-release"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
+    }
   },
   "config": {
     "commitizen": {
