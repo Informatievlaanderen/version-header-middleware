@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.1.1...v1.2.0) (2019-04-24)
+
+
+### Features
+
+* make version headername configurable ([ca57f5e](https://github.com/informatievlaanderen/version-header-middleware/commit/ca57f5e))
+
 ## [1.1.1](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.1.0...v1.1.1) (2018-12-18)
 
 # [1.1.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.0.0...v1.1.0) (2018-12-15)
