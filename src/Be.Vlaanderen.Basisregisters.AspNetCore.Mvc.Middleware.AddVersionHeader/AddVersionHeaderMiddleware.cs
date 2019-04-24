@@ -9,17 +9,23 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
     /// </summary>
     public class AddVersionHeaderMiddleware
     {
-        public static string HeaderName = "x-basisregister-version";
+        public const string HeaderName = "x-basisregister-version";
 
         private readonly RequestDelegate _next;
+        private readonly string _headerName;
 
-        public AddVersionHeaderMiddleware(RequestDelegate next) => _next = next;
+        public AddVersionHeaderMiddleware(
+            RequestDelegate next,
+            string headerName = HeaderName)
+        {
+            _next = next;
+            _headerName = headerName;
+        }
 
         public Task Invoke(HttpContext context)
         {
             var version = Assembly.GetEntryAssembly().GetName().Version.ToString();
-            context.Response.Headers.Add(HeaderName, version);
-
+            context.Response.Headers.Add(_headerName, version);
             return _next(context);
         }
     }
