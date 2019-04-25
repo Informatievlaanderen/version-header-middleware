@@ -18,14 +18,14 @@ nuget NETStandard.Library 2.0.3
 // PRODUCTION STUFF
 nuget Microsoft.AspNetCore.Http.Abstractions 2.2.0
 
+// VBR STUFF
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline ~> 1.6
+
 // TEST STUFF
 nuget Microsoft.NET.Test.Sdk 16.0.1
 nuget xunit 2.4.1
 nuget xunit.runner.visualstudio 2.4.1
 nuget Shouldly 3.0.2
-
-// VBR STUFF
-nuget Be.Vlaanderen.Basisregisters.Build.Pipeline ~> 1.5
 
 // BUILD STUFF
 nuget FAKE 4.64.13 // Don't update to v5!
