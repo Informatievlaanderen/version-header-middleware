@@ -1,6 +1,6 @@
 {
   "name": "version-header-middleware",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Middleware component which adds the version of the assembly as header `x-basisregister-version` to the response.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
