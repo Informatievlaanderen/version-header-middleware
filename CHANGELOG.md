@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.2.1...v1.3.0) (2019-08-21)
+
+
+### Features
+
+* bump to .net 2.2.6 ([b5aee41](https://github.com/informatievlaanderen/version-header-middleware/commit/b5aee41))
+
 ## [1.2.1](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.2.0...v1.2.1) (2019-04-25)
 
 # [1.2.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.1.1...v1.2.0) (2019-04-24)
