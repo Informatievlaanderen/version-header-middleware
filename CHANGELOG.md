@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.3.1...v2.0.0) (2019-11-18)
+
+
+### Code Refactoring
+
+* upgrade to netcoreapp30 ([153445e](https://github.com/informatievlaanderen/version-header-middleware/commit/153445e))
+
+
+### BREAKING CHANGES
+
+* Upgrade to .NET Core 3 and changed default header to x-version
+
 ## [1.3.1](https://github.com/informatievlaanderen/version-header-middleware/compare/v1.3.0...v1.3.1) (2019-10-28)
 
 
