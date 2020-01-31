@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.1.0...v2.2.0) (2020-01-31)
+
+
+### Features
+
+* upgrade netcoreapp31 and dependencies ([ab1dcfa](https://github.com/informatievlaanderen/version-header-middleware/commit/ab1dcfa6a0a2ebe0093b1a310fcf10270f1aceb4))
+
 # [2.1.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.0.0...v2.1.0) (2019-12-15)
 
 
