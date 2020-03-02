@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.0...v2.2.1) (2020-03-02)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([1f79027](https://github.com/informatievlaanderen/version-header-middleware/commit/1f79027f2289618680979fdaec372f65c77557ed))
+
 # [2.2.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
