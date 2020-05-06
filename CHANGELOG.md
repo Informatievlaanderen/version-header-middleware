@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.1...v2.2.2) (2020-05-06)
+
+
+### Bug Fixes
+
+* move to GH-actions ([#6](https://github.com/informatievlaanderen/version-header-middleware/issues/6)) ([0ca410d](https://github.com/informatievlaanderen/version-header-middleware/commit/0ca410dc6b2070acd80f89c4d9f4a0b5e2206366))
+
 ## [2.2.1](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
