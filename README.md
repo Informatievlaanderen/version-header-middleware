@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddVersionHeader [![Build Status](https://github.com/Informatievlaanderen/logcontext-correlationid-middleware/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/logcontext-correlationid-middleware/actions)
+# Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddVersionHeader [![Build Status](https://github.com/Informatievlaanderen/version-header-middleware/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/version-header-middleware/actions)
 
 Middleware component which adds the version of the assembly as header `x-basisregister-version` to the response.
 
