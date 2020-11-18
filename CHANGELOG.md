@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.6...v2.2.7) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([577f136](https://github.com/informatievlaanderen/version-header-middleware/commit/577f13684488b146e207af28bf2dfa3c738bf07a))
+
 ## [2.2.6](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.5...v2.2.6) (2020-09-21)
 
 
