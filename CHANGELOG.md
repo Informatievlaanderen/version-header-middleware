@@ -1,3 +1,10 @@
+## [2.2.8](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.7...v2.2.8) (2020-12-17)
+
+
+### Bug Fixes
+
+* move to 5.0.1 ([bbb6cf3](https://github.com/informatievlaanderen/version-header-middleware/commit/bbb6cf38298e5c77016d9ff0b38c9cf31bd33563))
+
 ## [2.2.7](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.6...v2.2.7) (2020-11-18)
 
 
