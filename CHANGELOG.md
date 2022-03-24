@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.11...v3.0.0) (2022-03-24)
+
+
+### Features
+
+* move to dotnet 6.0.3 ([7bdca41](https://github.com/informatievlaanderen/version-header-middleware/commit/7bdca417b1913542930df2307827000e7c4e1234))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 6.0.3
+
 ## [2.2.11](https://github.com/informatievlaanderen/version-header-middleware/compare/v2.2.10...v2.2.11) (2021-05-28)
 
 
