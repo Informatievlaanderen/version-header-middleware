@@ -5,7 +5,7 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
     using Microsoft.AspNetCore.Http;
 
     /// <summary>
-    /// Add a 'x-basisregister-version' header to the response containing the assembly version.
+    /// Add an 'x-basisregister-version' header to the response containing the assembly version.
     /// </summary>
     public class AddVersionHeaderMiddleware
     {
@@ -24,8 +24,8 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware
 
         public Task Invoke(HttpContext context)
         {
-            var version = Assembly.GetEntryAssembly().GetName().Version.ToString();
-            context.Response.Headers.Add(_headerName, version);
+            var version = Assembly.GetEntryAssembly()?.GetName().Version?.ToString();
+            context.Response.Headers.Append(_headerName, version);
             return _next(context);
         }
     }
