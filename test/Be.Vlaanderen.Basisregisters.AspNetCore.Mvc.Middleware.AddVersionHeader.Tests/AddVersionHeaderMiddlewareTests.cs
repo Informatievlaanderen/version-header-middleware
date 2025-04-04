@@ -11,9 +11,9 @@ namespace Be.Vlaanderen.Basisregisters.AspNetCore.Mvc.Middleware.AddVersionHeade
         [Fact]
         public async Task AddsAssemblyVersionToResponseHeaders()
         {
-            var middleware = new AddVersionHeaderMiddleware(innerContext => Task.CompletedTask);
+            var middleware = new AddVersionHeaderMiddleware(_ => Task.CompletedTask);
             var context = new DefaultHttpContext();
-            var expectedVersion = Assembly.GetEntryAssembly().GetName().Version.ToString();
+            var expectedVersion = Assembly.GetEntryAssembly()?.GetName().Version?.ToString();
 
             await middleware.Invoke(context);
 
