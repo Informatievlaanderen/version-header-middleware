@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v4.0.0...v5.0.0) (2025-04-04)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([1b7988e](https://github.com/informatievlaanderen/version-header-middleware/commit/1b7988e9b862045646f041d82f7da08ef453b58e))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v3.0.0...v4.0.0) (2024-03-07)
 
 
