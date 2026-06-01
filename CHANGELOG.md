@@ -1,3 +1,10 @@
+# [5.1.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v5.0.0...v5.1.0) (2026-06-01)
+
+
+### Features
+
+* update packages ([2cd2054](https://github.com/informatievlaanderen/version-header-middleware/commit/2cd205464a31562729c2d2f0c4439bd9fe63200e))
+
 # [5.0.0](https://github.com/informatievlaanderen/version-header-middleware/compare/v4.0.0...v5.0.0) (2025-04-04)
 
 
